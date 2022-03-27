@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<style>
+    body{
+        font-family: calibri,Helvetica, sans-serif;
+        background-color: pink;
+    }
+    .container{
+        padding: 50px;
+        background-color: lightblue;
+    }
+    input[type=text],input[type=password],textarea{
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+    input[type=text]:focus,input[type=password]:focus{
+        background-color: orange;
+        outline: none;
+    }
+    div{
+        padding: 10px 0;
+    }
+    hr{
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+    .registerbtn{
+        background-color: #4caf50;
+        color: white;
+        padding: 16PX 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+    .registerbtn:hover{
+        opacity: 1;
+    }
+
+</style>
+<body>
+    <form action="">
+        <div class="container">
+            <center><h1>Student Regiration Form</h1></center>
+            <hr>
+            <label > First Name</lael>
+<input type="text" name="First Name" placeholder="first name" size="15" required>
+<label> Middle Name</label>
+<input type="text" name="middle name" placeholder="middle name" size="15" required>
+<label>Last Name</label>
+<input type="text" name="last name" placeholder="last name" size="15" required>
+<label>Email</label>
+<input type="text" name="email" placeholder="email" size="15" required>
+<label for="psw">Password</label>
+<input type="password" placeholder="enter password" name="pswd" required>
+<label for="psw repeat">Re-type Password</label>
+<input type="password" placeholder="Re- type password" name="psw repeat"required>
+<button type="submit" class="registerbtn">Register</button>
+    </form>
+</body>
+</html>
